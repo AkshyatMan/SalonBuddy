@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "518924378219",
+    "project_id": "barberboss-3ca36",
+    "storage_bucket": "barberboss-3ca36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518924378219:android:a8a2c73a86f3bbc6ed112e",
+        "android_client_info": {
+          "package_name": "com.example.salonbuddy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCecNoBWtztMEGPYJ0tDDzoxrcSkImiSVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Activation</title>
+</head>
+<body>
+    <p>Hello {{ user.username }},</p>
+    <p>Thank you for registering with us. To activate your account, please click the link below:</p>
+    <a href="http:192.168.10.80:8000/{% url 'activate' uidb64=uid token=token %}">Activate Your Account</a>
+    <p>If you didn't register on our website, you can ignore this email.</p>
+    <p>Regards,<br> Your Website Team</p>
+</body>
+</html>
